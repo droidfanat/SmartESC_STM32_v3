@@ -1,4 +1,4 @@
-#define THROTTLEOFFSET 1
+#define THROTTLEOFFSET 20
 #define THROTTLEMAX 175
 #define BRAKEOFFSET 50
 #define BRAKEMAX 100
@@ -10,9 +10,9 @@
 
 // motor current limits for invividual modes in mA
 // note that hacked firmware allows up to 55amps motor phase current
-#define PH_CURRENT_MAX_ECO 10000
-#define PH_CURRENT_MAX_NORMAL 15000
-#define PH_CURRENT_MAX_SPORT 10000
+#define PH_CURRENT_MAX_ECO 1000
+#define PH_CURRENT_MAX_NORMAL 1000
+#define PH_CURRENT_MAX_SPORT 1000
 
 // motor current limit for regen in mA
 #define REGEN_MAX_CURRENT 10000
